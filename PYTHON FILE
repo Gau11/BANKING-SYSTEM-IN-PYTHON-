@@ -1,7 +1,7 @@
 import cx_Oracle
 from datetime import datetime
 from datetime import date
-con= cx_Oracle.connect('PROJECT/123@xe')
+con= cx_Oracle.connect('system/123@localhost')
 cur= con.cursor()
 
 def mainmenu():
